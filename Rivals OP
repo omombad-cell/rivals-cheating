@@ -1335,4 +1335,3 @@ function Native.library(captures)
 
                 value236.Size = UDim2.fromOffset(settings.Size.X, 16 + contentHeight + (value245.AbsolutePosition.Y - value236.AbsolutePosition.Y))
             end
-            functi... (15 MB left)
