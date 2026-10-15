@@ -1,4 +1,3 @@
-
 local arguments = table.pack(...)
 local sharedEnv = getgenv and getgenv() or _G
 local previous = rawget(sharedEnv, 'Unnamed Enhancements - cracked by frosti')
@@ -264,6 +263,7 @@ function Backend.initialize(data)
     opcodes[17880] = 7
     jumpOperands[17880] = 20417
 end
+
 function Native.library(captures)
     local capture09 = captures[9]
     local capture11 = captures[11]
@@ -1335,3 +1335,8 @@ function Native.library(captures)
 
                 value236.Size = UDim2.fromOffset(settings.Size.X, 16 + contentHeight + (value245.AbsolutePosition.Y - value236.AbsolutePosition.Y))
             end
+
+            return popout
+        end
+    end
+end
